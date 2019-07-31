@@ -1,0 +1,9 @@
+digraph G{
+node[ fontsize ="12" shape ="ellipse"]; 
+5[shape=box, label="Elemento: 5"]; 
+5->3;3[shape=box, label="Elemento: 3"]; 
+3->25;25[shape=box, label="Elemento: 25"]; 
+25->10;10[shape=box, label="Elemento: 10"]; 
+10->5;
+rankdir=LR;
+label ="Informacion: Lista";}
